@@ -31,3 +31,30 @@ Instrucciones de uso
 Instala ejecutando el comando: `node setup.js`
 
 Luego ejecutando: `npm run dev` vigilara los cambios de estilos automaticamente.
+
+### Estructura de archivos generados.
+
+```main/
+|
+|– scss/
+|   |– _reset.scss
+|   |– _config.scss 
+|
+|   |– _typography.scss
+|   |– _buttons.scss     
+|   |– _form.scss        
+|   |– _grid.scss         
+|   |– _table.scss   
+|   |– _helpers.scss     
+|   |– main.scss     
+|
+|– css/
+|   |– main.css
+|
+|– js/
+|   |– script.js
+|
+|– img/
+|
+|– index.html     
+
